@@ -1,0 +1,215 @@
+{
+  "users": [
+    {
+      "username": "ismail idb",
+      "email": "is@gm.com",
+      "password": "ismail",
+      "id": 1
+    },
+    {
+      "email": "abdo@gmail.com",
+      "username": "abdelali",
+      "password": "abdo1234",
+      "id": 2
+    }
+  ],
+  "locations": [
+    {
+      "restaurantName": "KFC Restaurant ",
+      "phone": "+33650292543",
+      "address": "agadir Oufella",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "restaurantName": "ggggggggggg",
+      "phone": 34567766767,
+      "address": "tanger",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "restaurantName": "Kebab",
+      "phone": 34567766767,
+      "address": "casa",
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "restaurantName": "Trradition Marocaine",
+      "phone": "4365475676585655",
+      "address": "Noisy le sec",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "restaurantName": "zzzz",
+      "phone": 34567895677,
+      "address": "ffff",
+      "userId": 2,
+      "id": 5
+    }
+  ],
+  "categories": [
+    {
+      "name": "Breakfast",
+      "userId": 1,
+      "locationId": 1,
+      "id": 1
+    },
+    {
+      "name": "Lunch",
+      "userId": 1,
+      "locationId": 2,
+      "id": 2
+    },
+    {
+      "name": "Dinner",
+      "userId": 1,
+      "locationId": 1,
+      "id": 3
+    },
+    {
+      "name": "Drinks",
+      "userId": 1,
+      "locationId": 1,
+      "id": 4
+    },
+    {
+      "name": "Lunch 3",
+      "userId": 1,
+      "locationId": 3,
+      "id": 5
+    },
+    {
+      "name": "Lunch 35",
+      "userId": 1,
+      "locationId": 3,
+      "id": 6
+    },
+    {
+      "name": "Cat 1",
+      "userId": 2,
+      "locationId": 4,
+      "id": 7
+    },
+    {
+      "name": "Cat 2",
+      "userId": 2,
+      "locationId": 4,
+      "id": 8
+    }
+  ],
+  "items": [
+    {
+      "name": "Steak Sandwich",
+      "price": 36.95,
+      "description": "server with fries and drink",
+      "qty": 230,
+      "userId": 1,
+      "locationId": 2,
+      "categoryId": 1,
+      "id": 1
+    },
+    {
+      "name": "Lovers Sandwich",
+      "price": 55.99,
+      "description": "server with drink",
+      "qty": 230,
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 6,
+      "id": 4
+    },
+    {
+      "name": "Steak Sandwich",
+      "price": 36.95,
+      "description": "server with fries and drink",
+      "qty": 230,
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 5,
+      "id": 5
+    },
+    {
+      "name": "Lovers Sandwich",
+      "price": 55.99,
+      "description": "server with fries and drink",
+      "qty": 230,
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 5,
+      "id": 6
+    },
+    {
+      "name": "item up",
+      "qty": 2,
+      "price": 50.56,
+      "description": "test",
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 6,
+      "id": 7
+    },
+    {
+      "name": "item 2",
+      "qty": 2,
+      "price": "123.57",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ligula eget libero dignissim posuere at a ipsum. Cras dapibus sed orci sit amet porttitor. Phasellus vulputate risus quis sollicitudin fringilla. Praesent ullamcorper odio quis vestibulum ultricies. Nulla facilisi. In porttitor euismod ipsum at gravida. Phasellus posuere, nunc sed aliquam.",
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 5,
+      "id": 8
+    },
+    {
+      "name": "item 34",
+      "qty": 3,
+      "price": 55.57,
+      "description": "test",
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 6,
+      "id": 9
+    },
+    {
+      "name": "ffff",
+      "qty": 2,
+      "price": 5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac ligula eget libero dignissim posuere at a ipsum. Cras dapibus sed orci sit amet porttitor. Phasellus vulputate risus quis sollicitudin fringilla. Praesent ullamcorper odio quis vestibulum ultricies. Nulla facilisi. In porttitor euismod ipsum at gravida. Phasellus posuere, nunc sed aliquam.",
+      "userId": 1,
+      "locationId": 3,
+      "categoryId": 5,
+      "id": 10
+    },
+    {
+      "name": "rrrr",
+      "qty": 2,
+      "price": 50,
+      "description": "cccc",
+      "userId": 1,
+      "locationId": 1,
+      "categoryId": 1,
+      "id": 11
+    },
+    {
+      "name": "vcnbvcn",
+      "qty": 2,
+      "price": 14,
+      "description": "ddddddddd",
+      "userId": 1,
+      "locationId": 1,
+      "categoryId": 3,
+      "id": 12
+    },
+    {
+      "name": "dsvsd",
+      "qty": 4,
+      "price": 657,
+      "description": "azzqs",
+      "userId": 2,
+      "locationId": 4,
+      "categoryId": 7,
+      "id": 13
+    }
+  ]
+}
